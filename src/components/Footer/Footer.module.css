@@ -1,0 +1,10 @@
+.footer {
+    background-color: var(--dark-purple);
+    color: var(--white);
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+    font-weight: 900;
+}

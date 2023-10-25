@@ -6,10 +6,10 @@ export default function Banner() {
         <div className={styles.banner}>
             <div className={styles.presentation}>
                 <h1 className={styles.title}>
-                    Hello, World!
+                    Hello, World...
                 </h1>
                 <p className={styles.paragraph}>
-                Boas vindas ao meu espaço pessoal! Eu sou Kayo Ennrique, instrutor de Front-end da Alura. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
+                Welcome to my personal space! I'm Kayo Ennrique, studying Front-end at Alura.<br /> Here is a space where I share my projects and applications that I develop.😊
                 </p>
             </div>
             <div className={styles.images}>

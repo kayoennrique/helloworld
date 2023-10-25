@@ -1,6 +1,6 @@
 .banner {
     padding: 3rem 7.5rem 6.25rem;
-    background-color: var(--dark-blue);
+    background-color: var(--dark-purple);
     color: var(--white);
     display: grid;
     grid-template-columns: 1fr 1fr;
