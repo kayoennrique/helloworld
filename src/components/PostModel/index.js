@@ -1,6 +1,6 @@
 import styles from './PostModel.module.css';
 
-export default function PostModel({ photoCover, títle, children }) {
+export default function PostModel({ photoCover, title, children }) {
   return (
     <article className={styles.postModelContainer}>
             <div
@@ -8,8 +8,8 @@ export default function PostModel({ photoCover, títle, children }) {
                 style={{ backgroundImage: `url(${photoCover})` }}
             ></div> 
 
-            <h6 className={styles.títle}>
-                {títle}
+            <h6 className={styles.title}>
+                {title}
             </h6>
 
             <div className={styles.postContentContainer}>

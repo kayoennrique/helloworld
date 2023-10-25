@@ -7,39 +7,33 @@
 }
 
 .title {
-    font-family: var(--font-secondary);
+    font-family: var(--secondary-source);
     font-size: 4rem;
     margin-top: 4.875rem;
     margin-bottom: 2rem;
 }
 
 .paragraph {
-    font-family: var(--font-secondary);
+    font-family: var(--secondary-source);
     font-size: 1.5rem;
     line-height: 2rem;
     margin-bottom: 2rem;
 }
 
-.coloredCircle {
+.images {
+    position: relative;
+    height: 406px;
+}
+
+.images > .myPicture {
     position: absolute;
-    right: 13vw;
-    bottom: 14.2vw;
-    width: 25vw;
-    background-color: var(--circle-color);
+    right: 0;
+    bottom: 0;
+    width: 18vw;
     border-radius: 50%;
-    height: 25vw;
-    clip-path: circle(50%); 
 }
 
-.myPicture {
-    position: absolute;
-    right: 13vw;
-    bottom: 14.2vw;
-    width: 22.5vw;
-    clip-path: circle(50%); 
-}
-
-.paragraph > .coloredCircle {
+.images > .coloredCircle {
     position: absolute;
     right: 7vw;
     bottom: 2.2vw;
@@ -88,22 +82,22 @@
         margin-bottom: 2rem;
     }
 
-    .paragraph {
-        height: 307px;
+    .images {
+        height: 198px;
     }
 
-    .paragraph > .myPicture, .paragraph > .coloredCircle {
+    .images > .myPicture, .images > .coloredCircle {
         left: 0;
         right: 0;
         margin: 0 auto;
     }
 
-    .paragraph > .myPicture {
+    .images > .myPicture {
         width: 170px;
         transform: translate(5rem, 0px);
     }
 
-    .paragraph > .coloredCircle {
+    .images > .coloredCircle {
         width: 240px;
         transform: translate(-1.5rem, 0px);
     }

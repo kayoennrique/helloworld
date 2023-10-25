@@ -16,7 +16,7 @@
 }
 
 .title {
-    font-family: var(--font-secondary);
+    font-family: var(--secondary-source);
     font-size: 1.25rem;
     color: var(--dark-purple);
     line-height: 1.75rem;
