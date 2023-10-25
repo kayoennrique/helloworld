@@ -18,7 +18,7 @@ export default function Post() {
     return (
         <PostModel
             photoCover={`/assets/posts/${post.id}/capa.png`}
-            title={post .title}
+            title={post.title}
         >
             <div className="post-markdown-container">
                 <ReactMarkDow>
